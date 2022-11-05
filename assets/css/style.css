@@ -119,6 +119,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px 0px;
 }
 .single_car__image {
   position: relative;
@@ -180,6 +181,7 @@ a:hover {
   display: inline-block;
   min-width: 100px;
   min-height: 30px;
+  border: 1px solid rgb(208, 203, 203);
 }
 
 @media (max-width: 767px) {
