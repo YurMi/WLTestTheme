@@ -4,9 +4,17 @@ add_action( 'wp_enqueue_scripts', function(){
     wp_enqueue_style( 'null-style', get_stylesheet_directory_uri() . '/assets/css/null-style.css', array(), time());
     wp_enqueue_style( 'main', get_stylesheet_directory_uri() . '/assets/css/style.css', array(), time());
     wp_enqueue_script( 'jquery');
+    
+    //just for single car page
+    if ( is_single() && 'car' == get_post_type() ) {
+         wp_enqueue_style( 'style-single-car-page', get_stylesheet_directory_uri() . '/assets/css/style-single-car-page.css', array(), time());
+    }
 });
 
+
+
 add_theme_support( 'post-thumbnails' ); 
+add_theme_support ('title-tag');
 
 
 /*
