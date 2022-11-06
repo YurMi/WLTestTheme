@@ -1,5 +1,12 @@
 .single_car {
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+.single_car__title {
+  margin-bottom: 4%;
+}
+.single_car__title h1 {
+  font-size: 40px;
 }
 .single_car__body {
   background-color: #fff;
@@ -13,7 +20,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px 0px;
+  padding: 10px 0px 0px;
 }
 .single_car__image {
   position: relative;
@@ -74,6 +81,7 @@
   min-width: 100px;
   min-height: 30px;
   border: 1px solid rgb(208, 203, 203);
+  border-radius: 20px;
 }
 
 @media (max-width: 767px) {

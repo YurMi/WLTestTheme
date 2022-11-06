@@ -65,6 +65,7 @@ a:hover {
 }
 
 .header__phone {
+  padding-left: 20px;
 }
 .header__phone a:hover {
   color: rgb(58, 55, 55);
